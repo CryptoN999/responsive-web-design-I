@@ -74,11 +74,43 @@ header nav {
   margin-top: 35px;
 }
 
+@media( max-width: 800px ) {
+  header nav {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media( max-width: 515px ) {
+  header nav {
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 header nav a {
   margin-right: 65px;
   font-size: 14px;
   color: gray;
   text-decoration: none;
+}
+
+@media( max-width: 800px ) {
+  header nav a {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media( max-width: 515px ) {
+  header nav a {
+    width: 10%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 header nav a:hover {
@@ -132,6 +164,12 @@ header .logo {
   border-top: 1px solid black;
   margin-top: 76px;
   padding-top: 39px;
+}
+
+@media( max-width: 500px ) {
+  main-content {
+    width: 500px;
+  }
 }
 
 .main-content .top-content {
