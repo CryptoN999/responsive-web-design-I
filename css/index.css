@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 
 header nav {
   display: inline-block;
-  width: 691px;
+  width: 100%;
   vertical-align: top;
   margin-top: 35px;
 }
@@ -82,12 +82,22 @@ header nav {
   }
 }
 
+/*.flipped {
+  display: flex;
+  justify-content: center;
+  margin: -1;
+}*/
+
 @media( max-width: 515px ) {
   header nav {
     width: 10%;
     flex-direction: column;
     align-items: center;
   }
+}
+
+.a .flipped {
+  order: -6
 }
 
 header nav a {
@@ -167,7 +177,7 @@ header .logo {
 }
 
 @media( max-width: 500px ) {
-  main-content {
+  .main-content {
     width: 500px;
   }
 }
